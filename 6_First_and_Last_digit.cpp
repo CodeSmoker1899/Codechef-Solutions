@@ -4,7 +4,7 @@ using namespace std;
 int firDigit(int n){
     while(n>=10){
         n=n/10;
-    }  // this loop divides the number   less than 10, so we get the first digit.
+    }  // this loop divides the number untill it becomes less than 10, so we get the first digit.
     return n;
 }
 
